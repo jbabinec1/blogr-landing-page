@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+    font-size: var(--fs-400);
+    overflow: auto;
+
+     .main-body {
+
+        //min-height: 703px;
+        min-height: 100%;
+        height: 100%;
+        text-align: center;
+
+    } 
+
+    p {
+        font-family: 'Overpass', sans-serif;
+    }
+
+
+
+    h1 {
+        font-size: var(--fs-900);
+        font-weight: 400;
+        font-family: 'Overpass', sans-serif;
+        color: hsl(208, 49%, 24%);
+    }
+
+
+    h2 {
+
+    font-family: 'Overpass', sans-serif;
+    color: hsl(208, 49%, 24%);
+
+    } 
+
+    
+}
+

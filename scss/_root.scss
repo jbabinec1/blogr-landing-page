@@ -1,0 +1,11 @@
+:root {
+
+    --fs-900: 2.0rem;
+    --fs-400: .9625rem;
+
+
+    @media (min-width: 1440px) {
+        //--fs-900: 2.9rem;
+        --fs-400: 1rem;
+    }
+}

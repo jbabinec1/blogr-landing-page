@@ -1,0 +1,212 @@
+.state-of-the-art-container {
+    border: 1px solid;
+    background-color: #333366;
+    background-image: url('/images/bg-pattern-circles.svg');
+    background-position: -8rem -14rem;
+    background-size: 39rem;
+    background-repeat: no-repeat;
+    border-top-right-radius: 65px;
+    border-bottom-left-radius: 65px;
+
+
+    .state-of-the-art-wrapper {
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-180px);
+    }
+
+    .illustration-phones {
+        //position: absolute;
+        //transform: translateY(-180px);
+        max-width: 100%;
+    }
+ 
+  /*  .image-wrap {
+        //max-width: 500px;
+       //position: relative;
+        
+        .illustration-phones {
+            //position: absolute;
+            transform: translateY(-180px);
+            max-width: 100%;
+        }
+    } */
+
+    .state-of-the-art {
+        display: flex;
+       // max-width: 500px;
+
+       .state-text-outer {
+           display: flex;
+           justify-content: flex-end;
+           max-width: 67rem;
+           margin-left: auto;
+           margin-right: auto;
+       }
+
+       .state-text-inner {
+           display: flex;
+           flex-direction: column;
+           max-width: 500px;
+
+           .paragraph-text {
+               max-width: 321px;
+               letter-spacing: 1.1px;
+               margin-left: auto;
+               margin-right: auto;
+               color: hsl(0, 0%, 100%);
+           }
+       }
+
+        .state-of-the-art-header {
+            color: #fff;
+            //font-size: 2.5rem;
+            margin-top: 18px;
+            max-width: 28rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+
+
+@media (min-width: 705px) {
+
+    .state-of-the-art-header {
+        white-space: nowrap;
+    }
+
+    .state-of-the-art-container .state-of-the-art .state-text-inner .paragraph-text {
+        max-width: 100%;
+    }
+
+}
+
+
+@media (min-width: 1000px) {
+    .state-of-the-art-container .state-of-the-art-wrapper {
+        transform: none;
+
+        .state-text-outer {
+            margin-right: 0;
+            padding-right: 52px;
+            padding-top: 5rem;
+            padding-bottom: 6rem;
+
+            .state-text-inner .paragraph-text {
+                max-width: 376px;
+                text-align: left;
+            }
+
+
+        }
+    }
+
+    .image-wrap {
+        position:relative;
+        .illustration-phones {
+            position: absolute;
+            display:flex;
+            transform: translateY(-58px);
+        }
+    }
+}
+
+
+@media (min-width: 1156px) {
+
+    .state-text-inner .paragraph-text {
+        
+        max-width: 100%!important;
+    }
+
+    .state-of-the-art-container .state-of-the-art .state-text-inner {
+        max-width: 554px;
+    }
+
+    .state-of-the-art-container .state-of-the-art .state-of-the-art-header {
+        margin-left: 0;
+    }
+
+}
+
+@media (min-width: 1308px) {
+    .image-wrap {
+        padding-left: 6rem;
+    }
+}
+
+
+
+
+@media (min-width: 1440px) {
+    .state-of-the-art-container .state-of-the-art-wrapper .state-text-outer {
+       padding-right: 123px;
+         
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media (min-width: 1158px) {
+
+    .state-of-the-art-container .state-of-the-art-wrapper {
+       transform: none;
+
+    .state-of-the-art-text-outer {
+
+        max-width: 104rem;
+        margin-right: 0;
+        padding-right: 52px;
+        padding-top: 5rem;
+        padding-bottom: 6rem;
+
+
+    .state-text-inner {
+        max-width: 540px;
+        text-align: left;
+
+        .state-of-the-art-container .state-of-the-art .state-of-the-art-header {
+
+            margin-left: 0!important;
+
+        }
+
+        .state-of-the-art-container .state-of-the-art-wrapper .state-text-outer .state-text-inner .paragraph-text {
+            max-width: 690px;
+        }
+
+    }
+
+}
+
+}
+
+.image-wrap {
+    position:relative;
+    .illustration-phones {
+        position: absolute;
+        display:flex;
+        transform: translateY(-58px);
+    }
+}
+
+}  */
