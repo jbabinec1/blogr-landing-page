@@ -16,6 +16,11 @@ footer {
         .footer-list {
             padding-left: 0;
 
+            .footer-links {
+                text-decoration: none;
+                color: #808080;
+            }
+
             .product-container, .company-container, .connect-container {
                 padding-bottom: 2.4rem;
 
